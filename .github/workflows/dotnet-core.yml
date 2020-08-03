@@ -21,6 +21,6 @@ jobs:
     - name: Install MS-Build
       run: Install-Module -Name Invoke-MsBuild -RequiredVersion 2.6.2 -Force 
     - name: Build solution
-      run: Invoke-MsBuild -Path Calculadora.sln
+      run: Invoke-MsBuild -Path $Env:GITHUB_WORKSPACE\Calculadora.sln
     - name: Test
       run: dotnet test --no-restore --verbosity normal
