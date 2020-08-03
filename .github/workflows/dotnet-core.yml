@@ -18,9 +18,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Build
-      run: MSBuild.exe $Env:GITHUB_WORKSPACE\Calculadora.sln
+    - name: Install MS-Build
+      run: Import-Module -Name "MsBuild.psm1"
+    - name: Build solution
+      run: Invoke-MsBuild -Path $Env:GITHUB_WORKSPACE\Calculadora.sln
     - name: Test
       run: dotnet test --no-restore --verbosity normal
