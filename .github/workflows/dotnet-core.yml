@@ -21,8 +21,8 @@ jobs:
     - name: Install MS-Build
       run: Install-Module -Name Invoke-MsBuild -RequiredVersion 2.6.2 -Force 
     - name: Dir
-      run: Invoke-MsBuild -Path D:\a\CalculadoraCSharp\Calculadora.sln    
-    - name: dir /S/B
+      run: dir /S/B
+    - name: Build
       run: Invoke-MsBuild -Path D:\a\CalculadoraCSharp\Calculadora.sln
     - name: Test
       run: dotnet test --no-restore --verbosity normal
