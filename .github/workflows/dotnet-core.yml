@@ -19,7 +19,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install MS-Build
-      run: Import-Module -Name "MsBuild.psm1"
+      run: Import-Module -Name "MsBuild"
     - name: Build solution
       run: Invoke-MsBuild -Path $Env:GITHUB_WORKSPACE\Calculadora.sln
     - name: Test
