@@ -23,6 +23,6 @@ jobs:
     - name: Dir
       run: dir /S/B
     - name: Build
-      run: Invoke-MsBuild -Path D:\a\CalculadoraCSharp\Calculadora.sln
+      run: Invoke-MsBuild -Path $Env:GITHUB_WORKSPACE
     - name: Test
       run: dotnet test --no-restore --verbosity normal
