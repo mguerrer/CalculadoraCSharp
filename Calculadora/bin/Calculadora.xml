@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculadora</name>
+    </assembly>
+    <members>
+        <member name="M:Calculadora.Calculadora.Suma(System.Double,System.Double,System.Double@)">
+            <summary>
+            Suma dos valores.
+            </summary>
+            <param name="num1">Primer valor</param>
+            <param name="num2">Segundo valor</param>
+            <param name="result">Resultado por referencia</param>
+            <returns>Código que indica si funcionó.  "OK" si todo bien, sino texto de excepción.</returns>
+        </member>
+        <member name="M:Calculadora.Calculadora.Resta(System.Double,System.Double,System.Double@)">
+            <summary>
+            Resta dos valores
+            </summary>
+            <param name="num1">Primer valor</param>
+            <param name="num2">Segundo valor</param>
+            <param name="result">Resultado por referencia</param>
+            <returns>Código que indica si funcionó.  "OK" si todo bien, sino texto de excepción.</returns>
+        </member>
+        <member name="M:Calculadora.Calculadora.Multiplica(System.Double,System.Double,System.Double@)">
+            <summary>
+            Multiplica dos valores
+            </summary>
+            <param name="num1">Primer valor</param>
+            <param name="num2">Segundo valor</param>
+            <param name="result">Resultado por referencia</param>
+            <returns>Código que indica si funcionó.  "OK" si todo bien, sino texto de excepción.</returns>
+        </member>
+        <member name="M:Calculadora.Calculadora.Divide(System.Double,System.Double,System.Double@)">
+            <summary>
+            Divide dos valores
+            </summary>
+            <param name="num1">Primer valor</param>
+            <param name="num2">Segundo valor</param>
+            <param name="result">Resultado por referencia</param>
+            <returns>Código que indica si funcionó.  "OK" si todo bien, sino texto de excepción.</returns>
+        </member>
+    </members>
+</doc>

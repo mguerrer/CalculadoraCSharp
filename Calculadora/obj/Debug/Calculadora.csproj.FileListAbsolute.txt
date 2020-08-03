@@ -1,0 +1,14 @@
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Calculadora.xml
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Calculadora.dll
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Calculadora.pdb
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Calculadora.dll.CodeAnalysisLog.xml
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Calculadora.dll.lastcodeanalysissucceeded
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\AzureDevops\Calculadora\main\Calculadora\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\AzureDevops\Calculadora\main\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\AzureDevops\Calculadora\main\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\AzureDevops\Calculadora\main\Calculadora\obj\Debug\Calculadora.csproj.CopyComplete
+C:\AzureDevops\Calculadora\main\Calculadora\obj\Debug\Calculadora.dll
+C:\AzureDevops\Calculadora\main\Calculadora\obj\Debug\Calculadora.pdb

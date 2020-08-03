@@ -1,0 +1,1 @@
+selenium-side-runner Calculadora.side --server http://localhost:4444/wd/hub

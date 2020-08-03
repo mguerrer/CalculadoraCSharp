@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - Calculadora Sonar way" ToolsVersion="15.0">
+  <Include Path="..\.sonarlint\3ec3a3db05d4ccfb1f59013447bff2949ad1e009csharp.ruleset" Action="Default" />
+</RuleSet>

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWindowsFormsApp", "CalculadoraWindowsFormsApp\CalculadoraWindowsFormsApp.csproj", "{479E8A63-AA63-4DD2-B72B-E83898B22C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCore", "CalculadoraCore\CalculadoraCore.csproj", "{AD75EE1C-E470-4C2C-8E66-D68F0610398C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraWebTest", "CalculadoraWebTest\CalculadoraWebTest.csproj", "{9772F101-F52A-4A38-827C-0BE3BEA7B893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCoreUnitTest", "Calculadora\CalculadoraCoreUnitTest.csproj", "{DBE9CBDD-D2BA-4B25-86C9-76541228D925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{507AFA7E-3B84-49BD-8E6C-8FA19EC9243D}"
+	ProjectSection(SolutionItems) = preProject
+		CalculadoraWebTest\BuildCalculadoraWebTest.bat = CalculadoraWebTest\BuildCalculadoraWebTest.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479E8A63-AA63-4DD2-B72B-E83898B22C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479E8A63-AA63-4DD2-B72B-E83898B22C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479E8A63-AA63-4DD2-B72B-E83898B22C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479E8A63-AA63-4DD2-B72B-E83898B22C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD75EE1C-E470-4C2C-8E66-D68F0610398C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD75EE1C-E470-4C2C-8E66-D68F0610398C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD75EE1C-E470-4C2C-8E66-D68F0610398C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD75EE1C-E470-4C2C-8E66-D68F0610398C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9772F101-F52A-4A38-827C-0BE3BEA7B893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9772F101-F52A-4A38-827C-0BE3BEA7B893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9772F101-F52A-4A38-827C-0BE3BEA7B893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9772F101-F52A-4A38-827C-0BE3BEA7B893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE9CBDD-D2BA-4B25-86C9-76541228D925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE9CBDD-D2BA-4B25-86C9-76541228D925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE9CBDD-D2BA-4B25-86C9-76541228D925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE9CBDD-D2BA-4B25-86C9-76541228D925}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65E02079-7EF5-4F1D-B8B4-CE2D475F28C4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://marcosguerrerow.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CalculadoraWindowsFormsApp\\CalculadoraWindowsFormsApp.csproj
+		SccProjectName1 = CalculadoraWindowsFormsApp
+		SccLocalPath1 = CalculadoraWindowsFormsApp
+		SccProjectUniqueName2 = CalculadoraCore\\CalculadoraCore.csproj
+		SccProjectName2 = CalculadoraCore
+		SccLocalPath2 = CalculadoraCore
+		SccProjectUniqueName3 = CalculadoraWebTest\\CalculadoraWebTest.csproj
+		SccProjectName3 = CalculadoraWebTest
+		SccLocalPath3 = CalculadoraWebTest
+		SccProjectUniqueName4 = Calculadora\\CalculadoraCoreUnitTest.csproj
+		SccProjectName4 = Calculadora
+		SccLocalPath4 = Calculadora
+	EndGlobalSection
+EndGlobal
