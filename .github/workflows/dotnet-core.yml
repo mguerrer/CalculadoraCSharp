@@ -21,7 +21,7 @@ jobs:
     - name: Install MS-Build
       run: Install-Module -Name Invoke-MsBuild -RequiredVersion 2.6.2 -Force 
     - name: Dir
-      run: dir /S/B
+      run: dir 
     - name: Build
       run: Invoke-MsBuild -Path $Env:GITHUB_WORKSPACE
     - name: Test
