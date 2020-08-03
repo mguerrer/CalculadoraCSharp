@@ -9,11 +9,12 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
+    - name: checkout
+      uses: actions/checkout@v1
+    - name: Setup .NET 4.5
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
